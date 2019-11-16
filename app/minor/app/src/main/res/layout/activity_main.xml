@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="10px"
+    android:paddingRight="10px"
+    android:paddingTop="10px"
+    android:paddingBottom="10px" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="take vid"
+        android:id="@+id/button_capture"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffd3ffe5"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="switch cam"
+        android:id="@+id/button_ChangeCamera"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ffd3ffe5"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:id="@+id/button_send"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight= "true"
+        android:textColor="#ffd3ffe5"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/camera_preview"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+</RelativeLayout>
