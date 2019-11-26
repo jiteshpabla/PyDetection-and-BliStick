@@ -3,7 +3,7 @@
 #### Introduction
 
 This repository contains a basic fuctionality implemplementation of the OpenDetection library in Python named - PyDetection.
-It aslo contains an app called "BliStick" which uses the PyDetection library (served via a server) to aid visually challenged people to identify familiar/friendly faces and humanoid figures.
+It also contains an app called "BliStick" which uses the PyDetection library (served via a server) to aid visually challenged people to identify familiar/friendly faces and humanoid figures.
 
 #### Problem Statement
 ##### Part 1:
